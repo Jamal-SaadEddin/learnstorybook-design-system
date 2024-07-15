@@ -1,90 +1,56 @@
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
+# React Design System with Storybook
 
-<h1 align="center">
-  Chromatic's Design Systems for Developers tutorial template
-</h1>
+## Overview
 
-This template ships with the main React configuration files you'll need to get up and running fast.
+This project is a design system created using React and Storybook. It was developed as part of a comprehensive tutorial from [Storybook](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/), focusing on best practices for building scalable and robust UI components. The design system includes a variety of foundational and complex components that can be reused throughout projects.
 
-## 🚅 Quick start
+## Learning Outcomes
 
-1.  **Create the application.**
+Through this tutorial, I have learned:
+- **Setting up Storybook**: How to configure Storybook in a React application.
+- **Developing Components**: Best practices for developing isolated and reusable components.
+- **Interaction Testing**: Techniques for writing interaction tests to ensure components function as expected across different scenarios.
+- **Accessibility**: Ensuring that UI components meet accessibility standards.
+- **Documentation**: How to document components effectively using Storybook to provide guidelines and usage information.
+- **Deployment**: Deploying Storybook to Chromatic to share with team members and stakeholders.
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+## Technologies Used
 
-    ```shell
-    # Clone the template
-    npx degit chromaui/learnstorybook-design-system-template learnstorybook-design-system
-    ```
+- React
+- Storybook
+- Chromatic
+- Jest for interaction testing
 
-1.  **Install the dependencies.**
+## Project Demo
 
-    Navigate into your new site’s directory and install the necessary dependencies.
+The completed design system is hosted on Chromatic. You can view and interact with the components at the following link:
+[Design System on Chromatic](https://6694e436f7ec8b2c2cdd6068-hfixyultjo.chromatic.com/)
 
-    ```shell
-    # Navigate to the directory
-    cd learnstorybook-design-system/
+## Internship at Foothill Technology Solutions
 
-    # Install the dependencies
-    yarn
-    ```
+This project was developed during my front-end internship at Foothill Technology Solutions. The experience was instrumental in understanding the practical applications of design systems in modern web development and honing my skills in React and Storybook.
 
-1.  **Open the source code and start editing!**
+## Setup and Installation
 
-    Open the `learnstorybook-design-system` directory in your code editor of choice and building your first component!
+To set up the project locally, follow these steps:
 
-## 🔎 What's inside?
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Jamal-SaadEddin/learnstorybook-design-system.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run Storybook:
+   ```bash
+   npm run storybook
+   ```
 
-A quick look at the top-level files and directories included with this template.
+## Contributions
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .babelrc.json
-    ├── .gitignore
-    ├── .prettierignore
-    ├── .prettierrc
-    ├── LICENSE
-    ├── package.json
-    ├── rollup.config.mjs
-    ├── vite.config.js
-    ├── yarn.lock
-    └── README.md
+Contributions are welcome. Please fork the repository and submit a pull request with your updates.
 
-1.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
+## License
 
-2.  **`src`**: This directory will contain all of the code related to what you will see on your application.
-
-3.  **`.babelrc.json`**: This file tells babel which presets and plugins to use when transforming your code.
-
-4.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
-
-5.  **`.prettierignore`**: This file tells prettier which files it should not format.
-
-6.  **`.prettierrc`**: This file tells prettier which rules to use when formatting your code.
-
-7.  **`LICENSE`**: The template is licensed under the MIT licence.
-
-8.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
-
-9.  **`rollup.config.mjs`**: This file tells rollup which plugins to use when bundling your code.
-
-10. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
-
-11. **`vite.config.js`**: This file tells [Vite](https://vitejs.dev/) which plugins to use when bundling your code.
-
-12. **`README.md`**: A text file containing useful reference information about the project.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial over at [Storybook tutorials](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
